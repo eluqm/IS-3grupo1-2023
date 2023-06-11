@@ -90,9 +90,6 @@ En pocas palabras, CRUD resume las funciones requeridas por un usuario para crea
 ### 🔩Planificación de tareas de implementación en la herramienta TRELLO 🔩
 
 ### 🔩COLABORADORES🔩
-<a href="https://github.com/Ronald-Gutierrez">
-    <img src="https://avatars.githubusercontent.com/u/113565299?v=4" width="50px">
-</a>
 Miguel Angel Deza Cuela
 <br>
 <a href="https://github.com/Miguel-Deza">
@@ -110,15 +107,12 @@ Miguel Angel Deza Cuela
   </h1>
 </a>
 
-[![Build Status - Cirrus][]][Build status]
-[![Discord badge][]][Discord instructions]
-[![Twitter handle][]][Twitter badge]
+[![Build Status - Cirrus](https://cirrus-ci.com/github/flutter/flutter/master)
+[![Discord badge](https://github.com/flutter/flutter/wiki/Chat)
+[![Twitter handle](https://twitter.com/intent/follow?screen_name=flutterdev)
 [![codecov](https://codecov.io/gh/flutter/flutter/branch/master/graph/badge.svg?token=11yDrJU2M2)](https://codecov.io/gh/flutter/flutter)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5631/badge)](https://bestpractices.coreinfrastructure.org/projects/5631)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/flutter/flutter/badge)](https://deps.dev/project/github/flutter%2Fflutter)
 [![SLSA 1](https://slsa.dev/images/gh-badge-level1.svg)](https://slsa.dev)
 
-Flutter is Google's SDK for crafting beautiful, fast user experiences for
-mobile, web, and desktop from a single codebase. Flutter works with existing
-code, is used by developers and organizations around the world, and is free and
-open source.
+Flutter es el SDK de Google para crear experiencias de usuario atractivas y rápidas para móvil, web y escritorio desde una única base de código. Flutter es utilizado por desarrolladores y organizaciones de todo el mundo, es gratuito y fuente abierta.
