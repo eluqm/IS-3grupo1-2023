@@ -90,11 +90,11 @@ En pocas palabras, CRUD resume las funciones requeridas por un usuario para crea
 ### 🔩Planificación de tareas de implementación en la herramienta TRELLO 🔩
 
 ### 🔩COLABORADORES🔩
-Miguel Angel Deza Cuela
 <br>
 <a href="https://github.com/Miguel-Deza">
     <img src="https://avatars.githubusercontent.com/u/78099176?v=4" width="50px">
 </a>
+Miguel Angel Deza Cuela
 
 
 ### Licencia de Flutter
@@ -107,9 +107,6 @@ Miguel Angel Deza Cuela
   </h1>
 </a>
 
-[![Build Status - Cirrus](https://cirrus-ci.com/github/flutter/flutter/master)
-[![Discord badge](https://github.com/flutter/flutter/wiki/Chat)
-[![Twitter handle](https://twitter.com/intent/follow?screen_name=flutterdev)
 [![codecov](https://codecov.io/gh/flutter/flutter/branch/master/graph/badge.svg?token=11yDrJU2M2)](https://codecov.io/gh/flutter/flutter)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5631/badge)](https://bestpractices.coreinfrastructure.org/projects/5631)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/flutter/flutter/badge)](https://deps.dev/project/github/flutter%2Fflutter)
