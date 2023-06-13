@@ -231,7 +231,12 @@ Moises Alejandro Casaverde Aleman
     </picture>
   </h1>
 </a>
-
+<br>
+<a href="https://github.com/josueSU-UNSA">
+    <img src="https://i.stack.imgur.com/frlIf.png" width="50px">
+</a>
+Josue Gabriel Sumare Uscca
+<br>
 [![codecov](https://codecov.io/gh/flutter/flutter/branch/master/graph/badge.svg?token=11yDrJU2M2)](https://codecov.io/gh/flutter/flutter)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5631/badge)](https://bestpractices.coreinfrastructure.org/projects/5631)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/flutter/flutter/badge)](https://deps.dev/project/github/flutter%2Fflutter)
