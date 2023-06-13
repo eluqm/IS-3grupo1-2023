@@ -76,7 +76,12 @@ Finalmente, el presente proyecto tiene por objetivo **brindar un chat-bot motiva
 	<img src="https://miro.medium.com/v2/resize:fit:800/1*W0kCy2dvS3mTAQkTpW4PuQ.jpeg" width=800/>
 </p>
 
-**4.** Swift como lenguaje de programación para desarrollar el código fuente y la lógica para dispositivos iOS.
+**4.** Firebase Realtime Database es un servicio de base de datos en tiempo real proporcionado por Firebase. Es una base de datos NoSQL alojada en la nube que permite el almacenamiento y la sincronización de datos en tiempo real entre los clientes y las aplicaciones.
+<p align="center">
+	<img src="https://firebase.google.com/images/social.png" width=800/>
+</p>
+
+**5.** Swift es un lenguaje de programación utilizado en dispositivos iOS para desarrollar el código fuente y la lógica de aplicaciones de manera eficiente y precisa.
 <p align="center">
 	<img src="https://www.vectorlogo.zone/logos/swift/swift-ar21.png" width=800/>
 </p>
