@@ -94,6 +94,38 @@ Finalmente, el presente proyecto tiene por objetivo **brindar un chat-bot motiva
 
 # **Estilos de Programación**
 
+## 1. Estilo de programación orientada a objetos (OOP)
+En Flutter, se sigue ampliamente el paradigma de programación orientada a objetos. Esto implica organizar el código en clases, objetos y jerarquías de herencia. Los elementos clave de este estilo incluyen:
+
+- Clases y objetos bien definidos para representar componentes, pantallas, widgets, etc.
+- Encapsulación para ocultar detalles de implementación y promover la reutilización de código.
+- Herencia y polimorfismo para crear relaciones jerárquicas entre clases y permitir la sustitución de objetos.
+
+## 2. Patrón de diseño MVC (Modelo-Vista-Controlador)
+El patrón de diseño Modelo-Vista-Controlador es comúnmente utilizado en el desarrollo de aplicaciones Flutter. Este patrón separa la lógica de la aplicación en tres componentes principales:
+
+- **Modelo:** Representa los datos y la lógica relacionada con los datos.
+- **Vista:** Se encarga de la presentación de la interfaz de usuario y la interacción con el usuario.
+- **Controlador:** Actúa como intermediario entre el modelo y la vista, gestionando la lógica de la aplicación y coordinando las interacciones entre ambos.
+
+Este enfoque promueve la separación de preocupaciones y facilita el mantenimiento y la evolución del código.
+
+## 3. Programación reactiva (Reactive Programming)
+La programación reactiva es un estilo de programación que se enfoca en la propagación de cambios y eventos en un sistema. En Flutter, esto se logra utilizando la biblioteca "RxDart" y el patrón de diseño BLoC (Business Logic Component). Los aspectos clave de este estilo son:
+
+- Flujos de datos (streams) para propagar y reaccionar a eventos y cambios.
+- Transformaciones y operaciones de datos usando operadores como `map`, `filter`, `merge`, etc.
+- Composición de flujos para crear flujos más complejos.
+- Reactividad y respuesta a eventos en tiempo real.
+
+## 4. Programación funcional
+La programación funcional es un enfoque en el cual el programa se construye utilizando funciones puras y evita el estado mutable y los efectos secundarios. Aunque Flutter es principalmente orientado a objetos, puedes aprovechar conceptos de programación funcional, como:
+
+- Funciones de orden superior que pueden recibir funciones como argumentos o devolver funciones.
+- Inmutabilidad, evitando cambios directos en objetos y utilizando operaciones inmutables.
+- Composición de funciones para crear transformaciones y operaciones más complejas.
+- Uso de expresiones lambda (funciones anónimas) para escribir código más conciso.
+
 ## 1. Declared-Intentions.
 
 ### *Restricciones*
