@@ -84,7 +84,8 @@ Finalmente, el presente proyecto tiene por objetivo **brindar un chat-bot motiva
 | Ver estadísticas de progreso personal incremental | UC-006 | El usuario ha iniciado sesión y ha registrado progresos | 1. Recopilar datos sobre el progreso del usuario <br> 2. Calcular estadísticas relevantes <br> 3. Mostrar gráficos o tablas con las estadísticas <br> 4. Actualizar las estadísticas de forma automática o mediante una acción del usuario | Las estadísticas de progreso personal se muestran al usuario de manera incremental |
 
 ### Diagrama de Casos de Uso
-
+#### 1. Caso de uso: Inicio de sesión
+![Inicio_de_sesion](https://github.com/eluqm/IS-3grupo1-2023/assets/82920949/ff919439-bcd6-4181-ba70-b01f0804bee6)
 
 ### Diseño de Modelo de Datos 
 
