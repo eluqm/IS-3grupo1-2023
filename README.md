@@ -90,6 +90,10 @@ Finalmente, el presente proyecto tiene por objetivo **brindar un chat-bot motiva
 
 
 ### Diseño de Arquitectura
+Flutter está diseñado como un sistema extensible en capas. Existe como una serie de bibliotecas independientes, cada una de las cuales depende de la capa subyacente. Ninguna capa tiene acceso privilegiado a la capa inferior y cada parte del nivel del marco está diseñada para ser opcional y reemplazable.
+![image](https://github.com/eluqm/IS-3grupo1-2023/assets/78099176/2139bff7-25a4-479a-8df2-befdb56c3690)
+El siguiente diagrama ofrece una descripción general de las piezas que componen una aplicación Flutter normal generada por flutter create. Muestra dónde se encuentra Flutter Engine en esta pila, resalta los límites de la API e identifica los repositorios donde viven las piezas individuales. La siguiente leyenda aclara parte de la terminología comúnmente utilizada para describir las piezas de una aplicación Flutter.
+![image](https://github.com/eluqm/IS-3grupo1-2023/assets/78099176/442c4878-3179-4d34-9093-7c0fa3d88a3b)
 
 
 # **Estilos de Programación**
