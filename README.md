@@ -89,6 +89,8 @@ Finalmente, el presente proyecto tiene por objetivo **brindar un chat-bot motiva
 
 ### Funcionalidades
 
+Se escribio los requisitos específicos de **Change your mind** en el siguiente documento, el cual posee los requisitos funcionales(RF) y los requisitos no funcionales(RNF) de este proyecto. [Documentación Requisitos Específicos BusGO](https://docs.google.com/document/d/1WBMYIa5uOBD-f-ZHr1CsGs8d6BoMfFrHwVSbD5lnAOA/edit?usp=sharing).
+
 ### Casos de Uso
 
 #### 1. Caso de uso: Inicio de sesión
