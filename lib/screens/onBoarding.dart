@@ -103,3 +103,29 @@ class _OnBoardingState extends State<OnBoarding> {
       ),
     );
   }
+
+
+  Column onBoardingStyle(String animation, String title, String description) {
+    return Column(
+      children: [
+        Lottie.asset(animation,
+            height: MediaQuery.of(context).size.height * 0.4),
+        Padding(
+          padding: const EdgeInsets.all(20.0),
+          child: Text(
+            title,
+            style: const TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.all(20.0),
+          child: Text(
+            description,
+            textAlign: TextAlign.center,
+            style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w300),
+          ),
+        )
+      ],
+    );
+  }
+}
