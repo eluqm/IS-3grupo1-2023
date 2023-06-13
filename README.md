@@ -45,6 +45,43 @@ Finalmente, el presente proyecto tiene por objetivo **brindar un chat-bot motiva
 
 ### Funcionalidades
 
+### Casos de Uso
+
+#### 1. Caso de uso: Inicio de sesión
+
+| Nombre | Código | Pre-condición | Acciones | Post-condición |
+| ------ | ------ | ------------- | -------- | -------------- |
+| Login | UC-001 | El usuario no ha iniciado sesión | 1. Ingresar nombre de usuario y contraseña <br> 2. Autenticar credenciales | El usuario inicia sesión correctamente y se redirige a la pantalla principal |
+
+#### 2. Caso de uso: Calificación diaria del estado de ánimo
+
+| Nombre | Código | Pre-condición | Acciones | Post-condición |
+| ------ | ------ | ------------- | -------- | -------------- |
+| Calificación diaria del estado de ánimo | UC-002 | El usuario ha iniciado sesión | 1. Seleccionar una opción para calificar el estado de ánimo <br> 2. Guardar la calificación en la base de datos | La calificación del estado de ánimo se registra correctamente y se muestra una confirmación |
+
+#### 3. Caso de uso: Diálogo con chatbot amigable
+
+| Nombre | Código | Pre-condición | Acciones | Post-condición |
+| ------ | ------ | ------------- | -------- | -------------- |
+| Diálogo con chatbot amigable | UC-003 | El usuario ha iniciado sesión | 1. Mostrar mensaje de bienvenida del chatbot <br> 2. Permitir al usuario ingresar mensajes <br> 3. Responder a las consultas del usuario de manera inteligente <br> 4. Ofrecer opciones o sugerencias relevantes durante la conversación | El chatbot interactúa con el usuario de manera amigable y proporciona respuestas relevantes |
+
+#### 4. Caso de uso: Acceder a acceso directo de profesionales en salud mental
+
+| Nombre | Código | Pre-condición | Acciones | Post-condición |
+| ------ | ------ | ------------- | -------- | -------------- |
+| Acceder a acceso directo de profesionales en salud mental | UC-004 | El usuario ha iniciado sesión | 1. Mostrar una lista de profesionales disponibles <br> 2. Permitir al usuario seleccionar un profesional <br> 3. Proporcionar información detallada sobre el profesional seleccionado <br> 4. Facilitar la comunicación entre el usuario y el profesional seleccionado | El usuario puede acceder directamente a profesionales en salud mental y comunicarse con ellos |
+
+#### 5. Caso de uso: Generación de rutina en la aplicación en base a datos recolectados de usuario
+
+| Nombre | Código | Pre-condición | Acciones | Post-condición |
+| ------ | ------ | ------------- | -------- | -------------- |
+| Generación de rutina en la aplicación en base a datos recolectados de usuario | UC-005 | El usuario ha iniciado sesión y ha proporcionado datos relevantes | 1. Recolectar y analizar datos relevantes del usuario <br> 2. Utilizar algoritmos para generar una rutina personalizada <br> 3. Mostrar la rutina generada al usuario <br> 4. Permitir al usuario realizar ajustes o personalizaciones en la rutina | Se genera una rutina personalizada basada en los datos del usuario y se muestra al usuario |
+
+#### 6. Caso de uso: Ver estadísticas de progreso personal incremental
+
+| Nombre | Código | Pre-condición | Acciones | Post-condición |
+| ------ | ------ | ------------- | -------- | -------------- |
+| Ver estadísticas de progreso personal incremental | UC-006 | El usuario ha iniciado sesión y ha registrado progresos | 1. Recopilar datos sobre el progreso del usuario <br> 2. Calcular estadísticas relevantes <br> 3. Mostrar gráficos o tablas con las estadísticas <br> 4. Actualizar las estadísticas de forma automática o mediante una acción del usuario | Las estadísticas de progreso personal se muestran al usuario de manera incremental |
 
 ### Diagrama de Casos de Uso
 
