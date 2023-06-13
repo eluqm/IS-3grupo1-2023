@@ -89,6 +89,10 @@ En pocas palabras, CRUD resume las funciones requeridas por un usuario para crea
 
 ### 🔩Planificación de tareas de implementación en la herramienta TRELLO 🔩
 
+# Modelo logico de la base de datos
+![modelo logico](images/modelo_logico.PNG)
+
+
 ### 🔩COLABORADORES🔩
 <br>
 <a href="https://github.com/Miguel-Deza">
@@ -100,6 +104,12 @@ Miguel Angel Deza Cuela
     <img src="https://avatars.githubusercontent.com/u/84652181?s=400&u=164b8541b0a891ca18a127c351a750611a3647a9&v=4" width="50px">
 </a>
 Roy Angel Choquehuanca Anconeyra
+
+<br>
+<a href="https://github.com/MC-io">
+    <img src="https://avatars.githubusercontent.com/u/87913065?v=4" width="50px">
+</a>
+Moises Alejandro Casaverde Aleman
 
 
 ### Licencia de Flutter
