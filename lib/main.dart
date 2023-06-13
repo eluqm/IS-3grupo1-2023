@@ -3,6 +3,21 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:change_your_mind/screens/baymax.dart';
 import 'package:change_your_mind/screens/login.dart';
+import 'package:change_your_mind/screens/onBoarding.dart';
+import 'package:change_your_mind/screens/outline.dart';
+import 'package:change_your_mind/screens/splash.dart';
+
+import 'firebase_options.dart';
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  //connecting the database before starting the application
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+  runApp(const MyApp());
+}
 
 class MyApp extends StatefulWidget {
   const MyApp({Key? key}) : super(key: key);
