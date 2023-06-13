@@ -273,6 +273,11 @@ Moises Alejandro Casaverde Aleman
 </a>
 Josue Gabriel Sumare Uscca
 <br>
+<a href="https://github.com/ehuallap">
+    <img src="https://avatars.githubusercontent.com/u/83515313?s=400&v=4" width="50px">
+</a>
+Erick Klendort Hualla Puelles
+<br>
 
 ### Licencia de Flutter
 <a href="https://flutter.dev/">
