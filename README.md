@@ -85,7 +85,12 @@ Finalmente, el presente proyecto tiene por objetivo **brindar un chat-bot motiva
 
 ### Diagrama de Casos de Uso
 #### 1. Caso de uso: Inicio de sesión
+
 ![Inicio_de_sesion](https://github.com/eluqm/IS-3grupo1-2023/assets/82920949/ff919439-bcd6-4181-ba70-b01f0804bee6)
+
+#### 2. Caso de uso: Calificación diaria del estado de ánimo
+
+![Calificacion_diaria_del_estado_de_animo](https://github.com/eluqm/IS-3grupo1-2023/assets/82920949/f2112256-1003-4781-ad60-5869b5906889)
 
 ### Diseño de Modelo de Datos 
 
