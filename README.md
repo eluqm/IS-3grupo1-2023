@@ -102,7 +102,7 @@ Finalmente, el presente proyecto tiene por objetivo **brindar un chat-bot motiva
 
 #### 5. Caso de uso: Generación de rutina en la aplicación en base a datos recolectados de usuario
 
-![Generación_de_rutina_en_la_aplicación_en_base_a_datos_recolectados_de_usuario](https://github.com/eluqm/IS-3grupo1-2023/assets/82920949/66e3d9ba-a8a7-4c66-9659-45018f687860)
+![Generación_de_rutina_en_la_aplicación_en_base_a_datos_recolectados_de_usuario](https://github.com/eluqm/IS-3grupo1-2023/assets/82920949/9aad495f-ddf2-458c-9a2c-46529c303383)
 
 ### Diseño de Modelo de Datos 
 
