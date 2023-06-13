@@ -104,6 +104,10 @@ Finalmente, el presente proyecto tiene por objetivo **brindar un chat-bot motiva
 
 ![Generación_de_rutina_en_la_aplicación_en_base_a_datos_recolectados_de_usuario](https://github.com/eluqm/IS-3grupo1-2023/assets/82920949/9aad495f-ddf2-458c-9a2c-46529c303383)
 
+#### 6. Caso de uso: Ver estadísticas de progreso personal incremental
+
+![Ver_estadísticas_de_progreso_personal_incremental](https://github.com/eluqm/IS-3grupo1-2023/assets/82920949/525b6985-dec5-4e2f-8e23-80b63e8500ad)
+
 ### Diseño de Modelo de Datos 
 
 
