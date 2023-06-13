@@ -98,7 +98,7 @@ Finalmente, el presente proyecto tiene por objetivo **brindar un chat-bot motiva
 
 #### 4. Caso de uso: Acceder a acceso directo de profesionales en salud mental
 
-![Acceder_a_acceso_directo_de_profesionales_en_salud_mental](https://github.com/eluqm/IS-3grupo1-2023/assets/82920949/09a59082-1d12-4eeb-a404-1a3986c2c4d0)
+![Acceder_a_acceso_directo_de_profesionales_en_salud_mental](https://github.com/eluqm/IS-3grupo1-2023/assets/82920949/279c58a6-f342-4f74-952e-4376b3371495)
 
 ### Diseño de Modelo de Datos 
 
