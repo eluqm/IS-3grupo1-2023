@@ -102,7 +102,7 @@ class _OnBoardingState extends State<OnBoarding> {
         ),
       ),
     );
-  }
+  } 
 
 
   Column onBoardingStyle(String animation, String title, String description) {
