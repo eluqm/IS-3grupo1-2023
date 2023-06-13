@@ -10,19 +10,32 @@
 
 ## :label: Propósito del Proyecto
 
-**a) 
+El presente proyecto tiene por objetivo brindar una **herramienta de soporte y seguimiento** de los estados emocionales para los usuarios que interactuen con la aplicación. Estos datos se recopilan mediante sencillas preguntas, escalas y comentarios que el usuario va aportando con el objetivo de formar un **perfil personalizado** único para cada usuario.
 
-**b)
+Asimismo, otro propósito del proyecto es **brindar una rutina, acorde a su perfil creado en la aplicación,** que le recomendará realizar ciertas actividades, le **proporcionará ejercicios** de meditación, le dará acceso directo a playlist musicales de relajación y brindará acceso rápido a consultas con psicólogos especialistas, nutricionistas y terapeutas para aquellos casos que requieran atención profesional.
 
-**c)
-
+Finalmente, el presente proyecto tiene por objetivo **brindar un chat-bot motivador** que escribirá frases relacionadas con el estado de animo del usuario motivándolo a seguir con la rutina personalizada propuesta por la aplicación o **hacer comentarios agradables sobre el usuario** en base a su estado de animo. Este utiliza palabras coincidentes dentro de su repositorio de respuestas para seleccionar y brindar una respuesta lógica frente a las preguntas/respuestas del usuario.
 
 ## :label: Tecnologias Usadas <br>
-- **a)** 
-- **b)** 
-- **c)** 
-- **d)** 
+**1**. Flutter, como SDK de código abierto para desarrollar la implementación de las vistas diseñadas para el proyecto.
+<p align="center">
+	<img src="https://docs.flutter.dev/assets/images/flutter-logo-sharing.png" width=800>
+</p>
 
+**2**. CMake como herramienta de construcción automática para compilar, debugar y testear la aplicación a nivel de componentes e integración.
+<p align="center">
+	<img src="https://blog.desdelinux.net/wp-content/uploads/2019/07/cmake.jpg" width=800/>
+</p>
+
+**3.** Dart Y C++ como lenguajes de programación para desarollar el código fuente y la lógica detras de las vistas en Android y Windows.
+<p align="center">
+	<img src="https://miro.medium.com/v2/resize:fit:800/1*W0kCy2dvS3mTAQkTpW4PuQ.jpeg" width=800/>
+</p>
+
+**4.** Swift como lenguaje de programación para desarrollar el código fuente y la lógica para dispositivos iOS.
+<p align="center">
+	<img src="https://www.vectorlogo.zone/logos/swift/swift-ar21.png" width=800/>
+</p>
  
 ## :label: Interfaz del Proyecto <br>
 	
