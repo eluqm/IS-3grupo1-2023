@@ -8,6 +8,28 @@
 
 ## :label: Aplicaciones Similares:
 
+**1. Mi Yo Ahora – Mindfulness**
+<p align="center">
+	<img src="https://cdn.ipadizate.com/2022/11/Mi-Yo-Ahora-%E2%80%93-Mindfulness.jpg?width=1200" width=800/>
+</p>
+
+No hay nada mejor para mantener el **control de las emociones** que la meditación, y la aplicación **Mi Yo Ahora – Mindfulness** es perfecta para estas situaciones.
+
+Esta plataforma te ayuda a **mejorar tu bienestar emocional** a través de la práctica diaria. Sus meditaciones son guiadas por profesionales, y a veces vienen acompañadas de vídeos instructivos.
+
+Para que su **método sea más efectivo** y consigas beneficios, es recomendable usar la aplicación en espacios libres de ruidos, con la temperatura adecuada y sin distracciones.
+
+**2. Intimind, medita en español**
+<p align="center">
+	<img src="https://cdn.ipadizate.com/2022/11/Intimind-medita-en-espanol.jpg?width=1200" width=800/>
+</p>
+
+**Intimid** es una aplicación con **4 programas especiales** diseñados para mejorar aspectos concretos de tu vida, especialmente aquellos que afectan tu **salud mental**.
+
+Los programas son "Salud y estrés", "Trabaja mejor", "Relaciones personales" y "Equilibrio emocional". Una vez inicies, la plataforma te ofrecerá una introducción con 7 meditaciones completamente gratis, una práctica diaria en tan solo 10 minutos.
+
+Su interfaz es sencilla y cómoda de usar, y a pesar de que ofrece buen contenido de autoayuda totalmente gratis, deberás suscribirte para tener acceso a todo sin límites.
+
 ## :label: Propósito del Proyecto
 
 El presente proyecto tiene por objetivo brindar una **herramienta de soporte y seguimiento** de los estados emocionales para los usuarios que interactuen con la aplicación. Estos datos se recopilan mediante sencillas preguntas, escalas y comentarios que el usuario va aportando con el objetivo de formar un **perfil personalizado** único para cada usuario.
