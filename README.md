@@ -195,6 +195,10 @@ En pocas palabras, CRUD resume las funciones requeridas por un usuario para crea
 ## *8. Evitar codigo redundante.* <br>
 
 ### 🔩Planificación de tareas de implementación en la herramienta TRELLO 🔩
+Estamos utilizando la herramienta de gestion Trello. Esta herramienta es fundamental para el trabajo en equipo y la correcta organizacion y reparticion de tareas en el proyecto. Se esta dividiendo las tareas en una TODO list, las tareas en progreso y las ya finalizadas.
+
+![trello](images/trello.PNG)
+
 
 # Modelo logico de la base de datos
 ![modelo logico](images/modelo_logico.PNG)
