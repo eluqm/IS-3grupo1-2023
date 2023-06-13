@@ -92,6 +92,11 @@ Finalmente, el presente proyecto tiene por objetivo **brindar un chat-bot motiva
 
 ![Calificacion_diaria_del_estado_de_animo](https://github.com/eluqm/IS-3grupo1-2023/assets/82920949/f2112256-1003-4781-ad60-5869b5906889)
 
+#### 3. Caso de uso: Diálogo con chatbot amigable
+
+![Dialogo_con_chatbot_amigable](https://github.com/eluqm/IS-3grupo1-2023/assets/82920949/a618c1ab-f429-4db3-99dc-3994659bc0e6)
+
+
 ### Diseño de Modelo de Datos 
 
 
