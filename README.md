@@ -96,6 +96,12 @@ En pocas palabras, CRUD resume las funciones requeridas por un usuario para crea
 </a>
 Miguel Angel Deza Cuela
 
+<br>
+<a href="https://github.com/MC-io">
+    <img src="https://avatars.githubusercontent.com/u/87913065?v=4" width="50px">
+</a>
+Moises Alejandro Casaverde Aleman
+
 
 ### Licencia de Flutter
 <a href="https://flutter.dev/">
