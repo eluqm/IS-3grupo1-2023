@@ -96,6 +96,9 @@ Finalmente, el presente proyecto tiene por objetivo **brindar un chat-bot motiva
 
 ![Dialogo_con_chatbot_amigable](https://github.com/eluqm/IS-3grupo1-2023/assets/82920949/a618c1ab-f429-4db3-99dc-3994659bc0e6)
 
+#### 4. Caso de uso: Acceder a acceso directo de profesionales en salud mental
+
+![Acceder_a_acceso_directo_de_profesionales_en_salud_mental](https://github.com/eluqm/IS-3grupo1-2023/assets/82920949/09a59082-1d12-4eeb-a404-1a3986c2c4d0)
 
 ### Diseño de Modelo de Datos 
 
