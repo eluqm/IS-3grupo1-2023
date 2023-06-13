@@ -30,6 +30,28 @@ Los programas son "Salud y estrés", "Trabaja mejor", "Relaciones personales" y 
 
 Su interfaz es sencilla y cómoda de usar, y a pesar de que ofrece buen contenido de autoayuda totalmente gratis, deberás suscribirte para tener acceso a todo sin límites.
 
+**3. Mi diario de pensamientos, TCC**
+
+<p align="center">
+	<img src="https://cdn.ipadizate.com/2022/11/Mi-diario-de-pensamientos-TCC.jpg?width=1200" width=800/>
+</p>
+
+Se trata de una **terapia cognitivo conductual** donde podrás **escribir a diario** y monitorear tu estado de ánimo. En pocas palabras, es un diario cuyo propósito es mejorar y **controlar tus sentimientos y emociones**.
+
+Un espacio libre para reflexionar sobre tus pensamientos y analizarlos con **técnicas y herramientas aprobadas** por **profesionales de la salud mental**. Al usar esta aplicación serás capaz de identificar tus emociones y trabajar para mejorarlas.
+
+**4. Daylio Diario**
+
+<p align="center">
+	<img src="https://cdn.ipadizate.com/2022/11/Daylio-Diario.1669646647.3106.jpg?width=1200" width=800/>
+</p>
+
+**Escribir en un diario** es una **práctica muy antigua** que ayuda a **controlar las emociones** y a expresar nuestros miedos e inseguridades, por supuesto, la aplicación **Daylio Diario** es perfecta para llevar un seguimiento de tu vida y cambios de humor.
+
+La misma es similar a un **diario privado** pero en versión digital, con ella podrás registrar tus comidas, descubrir lo que te hace feliz, establecer objetivos diarios, semanales o mensuales, crear hábitos, coleccionar logros y mucho más.
+
+Su interfaz esta muy bien cuidada y su sistema es completamente seguro. Así que no tengas miedo de expresarte, libérate de las presiones y alcanza la felicidad.
+
 ## :label: Propósito del Proyecto
 
 El presente proyecto tiene por objetivo brindar una **herramienta de soporte y seguimiento** de los estados emocionales para los usuarios que interactuen con la aplicación. Estos datos se recopilan mediante sencillas preguntas, escalas y comentarios que el usuario va aportando con el objetivo de formar un **perfil personalizado** único para cada usuario.
