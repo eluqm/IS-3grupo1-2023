@@ -160,7 +160,7 @@ Se escribio los requisitos específicos de **Change your mind** en el siguiente 
 ![Ver_estadísticas_de_progreso_personal_incremental](https://github.com/eluqm/IS-3grupo1-2023/assets/82920949/525b6985-dec5-4e2f-8e23-80b63e8500ad)
 
 ### Diseño de Modelo de Datos 
-
+![image](https://github.com/eluqm/IS-3grupo1-2023/blob/main/images/imagenMer.png)
 
 ### Diseño de Arquitectura
 Flutter está diseñado como un sistema extensible en capas. Existe como una serie de bibliotecas independientes, cada una de las cuales depende de la capa subyacente. Ninguna capa tiene acceso privilegiado a la capa inferior y cada parte del nivel del marco está diseñada para ser opcional y reemplazable.
