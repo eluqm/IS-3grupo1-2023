@@ -283,6 +283,11 @@ Josue Gabriel Sumare Uscca
 </a>
 Erick Klendort Hualla Puelles
 <br>
+<a href="https://github.com/DiegoRivas12">
+    <img src="https://avatars.githubusercontent.com/u/83515313?s=400&v=4" width="50px">
+</a>
+Diego Raul Rivas Huanca
+<br>
 
 ### Licencia de Flutter
 <a href="https://flutter.dev/">
