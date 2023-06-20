@@ -190,13 +190,14 @@ Además, el modelo de ChatGPT puede responder preguntas y proporcionar informaci
 
 REFERENCIAS
 
-ChatGPT en atención al cliente: En el siguiente enlace, encontrarás un estudio de caso sobre cómo el API de ChatGPT ha sido utilizado para mejorar la atención al cliente en diferentes empresas: ChatGPT Customer Support.
+ChatGPT en atención al cliente: En el siguiente enlace, encontrarás un estudio de caso sobre cómo el API de ChatGPT ha sido utilizado para mejorar la atención al cliente en diferentes empresas: [ChatGPT Customer Support](https://example.com/chatgpt-customer-support)
 
-Generación de código con ChatGPT: Este enlace te llevará a la página de investigación de OpenAI donde se detalla cómo el API de ChatGPT ha sido utilizado para generar código en diferentes contextos: Codex: Generating Code with ChatGPT.
+Generación de código con ChatGPT: Este enlace te llevará a la página de investigación de OpenAI donde se detalla cómo el API de ChatGPT ha sido utilizado para generar código en diferentes contextos: Codex: Generating Code with ChatGPT.[Codex: Generating Code with ChatGPT](https://example.com/codex-generating-code-with-chatgpt)
 
-Documentación del API de ChatGPT: La documentación oficial de OpenAI proporciona información detallada sobre el API de ChatGPT, incluyendo guías de inicio rápido, ejemplos de código y descripciones de los diferentes endpoints disponibles. Puedes acceder a la documentación en el siguiente enlace: ChatGPT API Documentation.
+Documentación del API de ChatGPT: La documentación oficial de OpenAI proporciona información detallada sobre el API de ChatGPT, incluyendo guías de inicio rápido, ejemplos de código y descripciones de los diferentes endpoints disponibles. Puedes acceder a la documentación en el siguiente enlace: ChatGPT API Documentation.[ChatGPT API Documentation](https://example.com/chatgpt-api-documentation)
 
-Investigaciones y artículos de OpenAI: El equipo de OpenAI ha publicado una serie de investigaciones y artículos relacionados con el desarrollo y los casos de uso del API de ChatGPT. Puedes explorarlos en la sección de Investigaciones de OpenAI: OpenAI Research.
+
+Investigaciones y artículos de OpenAI: El equipo de OpenAI ha publicado una serie de investigaciones y artículos relacionados con el desarrollo y los casos de uso del API de ChatGPT. Puedes explorarlos en la sección de Investigaciones de OpenAI: OpenAI Research.[OpenAI Research](https://example.com/openai-research)
 
 How to Build a New Habit: This is Your Strategy Guide: Según investigadores de la Universidad de Duke, los hábitos representan alrededor del 40 por ciento de nuestros comportamientos en un día determinado. Entender cómo construir nuevos hábitos (y cómo funcionan los actuales) es esencial para progresar en tu salud, tu felicidad y tu vida en general.
 [Mas información](https://jamesclear.com/habit-guide)
