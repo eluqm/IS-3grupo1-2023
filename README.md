@@ -200,6 +200,20 @@ Investigaciones y artículos de OpenAI: El equipo de OpenAI ha publicado una ser
 
 How to Build a New Habit: This is Your Strategy Guide: Según investigadores de la Universidad de Duke, los hábitos representan alrededor del 40 por ciento de nuestros comportamientos en un día determinado. Entender cómo construir nuevos hábitos (y cómo funcionan los actuales) es esencial para progresar en tu salud, tu felicidad y tu vida en general.
 [Mas información](https://jamesclear.com/habit-guide)
+### Sistema Número 3
+
+Desarrollo de un sistema de generación de rutinas con respuestas predefinidas en una base de datos:
+
+En el mundo actual, las computadoras desempeñan un papel importante en nuestra sociedad. Estas nos brindan información, nos entretienen y nos ayudan de diversas maneras. En este contexto, los chatbots son programas diseñados para simular una comunicación inteligente, ya sea en formato de texto o hablado. Sin embargo, este documento se centra específicamente en los chatbots de texto.
+
+El sistema es capaz de reconocer la entrada del usuario utilizando coincidencias de patrones y accede a la información para proporcionar una respuesta predefinida. Por ejemplo, si el usuario le proporciona un conjunto de datos como horas de estudio, es probable que el sistema responda con algo como un horario donde intercale horas de estudio con horas de relajación, basándose en el conjunto de datos dada por el usuario. Cuando la entrada se registra en la base de datos, se proporciona al usuario una respuesta predefinida basada en un patrón específico. El sistema se implementa mediante la comparación de patrones, donde se reconoce el orden de las frases y se adapta un patrón de respuesta guardado a las variables exclusivas de la frase. Sin embargo, este no puede registrar ni responder a preguntas complejas, ni realizar rutinas complicadas.
+
+
+Referencias:
+Dahiya, M. (2017). A tool of conversation: Chatbot. International Journal of Computer Sciences and Engineering, 5(5), 158-161.[Recuperado de ](https://www.researchgate.net/profile/Menal-Dahiya/publication/321864990_A_Tool_of_Conversation_Chatbot/links/5a360b02aca27247eddea031/A-Tool-of-Conversation-Chatbot.pdf)
+
+Jia, J. (2023). The Study of the Application of a Keywords-based Chatbot System on the Teaching of Foreign Languages. Retrieved June 20, 2023, from arXiv.org [Recuperado de ](https://arxiv.org/abs/cs/0310018)
+
 
 ### Diagrama de Casos de Uso
 #### 1. Caso de uso: Inicio de sesión
