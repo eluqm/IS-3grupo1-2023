@@ -134,7 +134,8 @@ Se escribio los requisitos específicos de **Change your mind** en el siguiente 
 | ------ | ------ | ------------- | -------- | -------------- |
 | Ver estadísticas de progreso personal incremental | UC-006 | El usuario ha iniciado sesión y ha registrado progresos | 1. Recopilar datos sobre el progreso del usuario <br> 2. Calcular estadísticas relevantes <br> 3. Mostrar gráficos o tablas con las estadísticas <br> 4. Actualizar las estadísticas de forma automática o mediante una acción del usuario | Las estadísticas de progreso personal se muestran al usuario de manera incremental |
 
-### Sistema de recomendación 
+## Sistemas de recomendación 
+### Sistema Número 1
 #### 1. Estructura del modelo teórico
 Las actividades de higiene básico están en constantes cambios. Esto afecta la trazabilidad y el registro de las actividades realizadas para diferentes empresas y dificulta la recomendación de actividades futuras.
 Por ejemplo, considere actividades diseñadas para eliminar o reducir exposición de los trabajadores mineros al estrés térmico caliente. En 2019, una actividad se describió como “Identificación de trabajadores que están aclimatados o evaluados
@@ -142,7 +143,6 @@ apto para trabajar en condiciones de calor’’. En 2020 se eliminó esta activ
 Pasaria lo mismo con las rutinas y parametros para dar una recomendación de rutina de acuerdo a su estado de animo.
 #### 2. Lista de actividades estandarizadas
 Homogeneizar el listado de todas las actividades que ofrece el seguro empresa a lo largo del tiempo conservando su esencia sin perder su propósito debido a los cambios antes mencionados, transformamos la descripción de cada actividad en un objeto matemático. Esto nos permite agrupar las actividades en función de su similitud y estandarizar la lista.
-
 Con base en las descripciones de las actividades de higiene ocupacional, realizar incrustaciones usando FastText [27–32] para preservar su sintaxis y contenido semántico. Luego usamos la frecuencia inversa suave (SIF) [33] asignar un peso a cada uno de estos vectores según su relevancia en la frase. Finalmente, obtenemos un vector de alta dimensión asociado con cada una de las descripciones de actividades, a partir de las cuales es posible determinar la similitud entre un par de actividades usando diferentes métrica.
 Se obtiene una lista estandarizada de actividades calculando la similitud del coseno entre diferentes pares de descripciones para todas las actividades.
 ![](https://github.com/eluqm/IS-3grupo1-2023/blob/main/images/lista_estandarizada.png)
@@ -159,6 +159,34 @@ Modelo de filtrado a través de Item-Variance Weighting (IVW).
 Esta ponderación ayuda a abordar el problema de los artículos con muchas calificaciones que son preferibles a aquellos con pocas calificaciones.
 Luego, la recomendación final se genera tomando la suma ponderada de las calificaciones de todos los elementos similares.
 ![](https://github.com/eluqm/IS-3grupo1-2023/blob/main/images/filtro_colaborativo.png)
+
+### Sistema Número 2
+
+![image](https://github.com/eluqm/IS-3grupo1-2023/assets/78099176/778bc580-5e95-4eb8-9ff8-4780f43df6a0)
+
+
+El API de ChatGPT de OpenAI ha sido utilizado en una amplia gama de casos y aplicaciones en diversos campos. Aquí te proporciono información más extensa y ejemplos de uso, así como algunas referencias para que puedas obtener más detalles.
+
+🔷 Asistencia al cliente: Empresas de diferentes sectores han implementado el API de ChatGPT para mejorar sus servicios de atención al cliente. Se ha utilizado para responder consultas, proporcionar información sobre productos y servicios, solucionar problemas técnicos y mucho más. Esto ayuda a reducir la carga de trabajo del personal de atención al cliente y brinda respuestas rápidas y precisas a los usuarios. Puedes encontrar información sobre el caso de uso de ChatGPT en atención al cliente en el siguiente enlace: https://openai.com/case-studies/chatgpt-customer-support/
+
+🔷 Generación de código: El API de ChatGPT ha sido utilizado para ayudar a los desarrolladores a generar código. Puedes escribir una descripción de la funcionalidad que deseas y el modelo de ChatGPT te proporcionará el código correspondiente. Esta aplicación ha resultado útil para tareas como la escritura de consultas de bases de datos, la creación de scripts y la generación de código de muestra. Puedes obtener más información sobre cómo se ha utilizado el API de ChatGPT para generar código en el siguiente enlace: https://openai.com/research/codex/
+
+🔷 Educación y tutoría: El API de ChatGPT también ha encontrado aplicación en el campo de la educación. Ha sido utilizado como una herramienta de tutoría virtual, donde los estudiantes pueden hacer preguntas y recibir respuestas en tiempo real. También se ha utilizado para ayudar en la revisión y corrección de trabajos escritos, proporcionando sugerencias y comentarios a los estudiantes. Esto permite una retroalimentación rápida y personalizada, mejorando el aprendizaje y el rendimiento académico. Sin embargo, es importante tener en cuenta que se requiere supervisión humana para garantizar la calidad y la precisión de las respuestas.
+
+🔷 Creación de historias y contenido: El API de ChatGPT ha sido utilizado por escritores y creadores de contenido para generar ideas, desarrollar tramas y crear diálogos. También se ha utilizado para generar contenido automatizado en aplicaciones como chatbots y juegos. Proporcionando una entrada inicial y guiando la conversación, el modelo de ChatGPT puede ayudar a generar texto creativo y envolvente.
+
+![image](https://github.com/eluqm/IS-3grupo1-2023/assets/78099176/c4ca34f6-a30e-4fe6-b1e9-47d51df4940d)
+
+
+El libro "Hábitos Atómicos" del autor James Clear es una excelente referencia para comprender cómo los pequeños cambios diarios pueden tener un impacto significativo en nuestras vidas. El API de ChatGPT puede desempeñar un papel complementario en el contexto de los hábitos saludables al proporcionar recomendaciones personalizadas y apoyo continuo para mantener y mejorar esos hábitos.
+
+En el libro, Clear destaca la importancia de los "hábitos atómicos", que son pequeñas acciones que realizamos regularmente y que pueden acumularse para lograr resultados significativos a largo plazo. Estos hábitos atómicos se basan en la idea de que los cambios pequeños y consistentes pueden ser más efectivos que los esfuerzos radicales y aislados.
+
+Aquí es donde el API de ChatGPT puede encajar con los conceptos presentados en el libro. Puedes utilizarlo como una herramienta interactiva en tu aplicación de salud mental para ayudar a los alumnos a desarrollar y mantener hábitos saludables. A través de conversaciones y recomendaciones personalizadas, el modelo de ChatGPT puede guiar a los alumnos para que realicen pequeñas acciones saludables de forma constante, construyendo así hábitos atómicos que les brinden beneficios a largo plazo.
+
+Por ejemplo, si un alumno informa que ha realizado el 50% de sus actividades saludables en una semana, el modelo de ChatGPT puede proporcionar recomendaciones específicas para mejorar ese porcentaje. Puede sugerir acciones simples y factibles que el alumno puede incorporar a su rutina diaria para aumentar gradualmente su nivel de compromiso con los hábitos saludables.
+
+Además, el modelo de ChatGPT puede responder preguntas y proporcionar información adicional sobre cómo desarrollar hábitos saludables, cómo superar obstáculos y cómo mantener la motivación a lo largo del tiempo. Esto puede complementar las enseñanzas del libro "Hábitos Atómicos" al ofrecer una guía personalizada y práctica para la implementación de esos principios.
 
 ### Diagrama de Casos de Uso
 #### 1. Caso de uso: Inicio de sesión
