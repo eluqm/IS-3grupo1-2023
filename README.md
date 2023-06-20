@@ -231,6 +231,17 @@ Dahiya, M. (2017). A tool of conversation: Chatbot. International Journal of Com
 
 Jia, J. (2023). The Study of the Application of a Keywords-based Chatbot System on the Teaching of Foreign Languages. Retrieved June 20, 2023, from arXiv.org [Recuperado de ](https://arxiv.org/abs/cs/0310018)
 
+### Sistema numero 4
+
+Desarrollo de un sistema enfocado a patrones de sueno.
+
+Segun nuestra investigacion, los patrones de sueno y la salud mental estan mutuamente relacionadas. Segun un estudio en Estados Unidos se encontro que diversos patrones de sueno estan asociados con problemas de salud mental. Por lo tanto si se mejoran estos patrones de sueno, es posible mejorar la salud mental de las personas.
+
+El objetivo es desarrollar un sistema de control de sueno, que no solo mida la cantidad de horas de sueno, sino tambien la calidad de sueno o diversos factores que la alteran.
+
+Referencias:
+Zhang, J., Paksarian, D., Lamers, F., Hickie, I. B., He, J., & Merikangas, K. R. (2017). Sleep Patterns and Mental Health Correlates in US Adolescents. The Journal of Pediatrics, 182, 137–143. doi:10.1016/j.jpeds.2016.11.007
+
 
 ### Diagrama de Casos de Uso
 #### 1. Caso de uso: Inicio de sesión
