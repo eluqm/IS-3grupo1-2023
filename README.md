@@ -159,7 +159,8 @@ Modelo de filtrado a través de Item-Variance Weighting (IVW).
 Esta ponderación ayuda a abordar el problema de los artículos con muchas calificaciones que son preferibles a aquellos con pocas calificaciones.
 Luego, la recomendación final se genera tomando la suma ponderada de las calificaciones de todos los elementos similares.
 ![](https://github.com/eluqm/IS-3grupo1-2023/blob/main/images/filtro_colaborativo.png)
-
+Bibliografia:
+Barrera, N. (2023). A recommender system for occupational hygiene services using natural language processing. Retrieved June 20, 2023, from Elsevier [Recuperado de ](https://www.sciencedirect.com/science/article/pii/S2772442523000151?ref=pdf_download&fr=RR-2&rr=7da24ab0c878951c)
 ### Sistema Número 2
 
 ![image](https://github.com/eluqm/IS-3grupo1-2023/assets/78099176/778bc580-5e95-4eb8-9ff8-4780f43df6a0)
