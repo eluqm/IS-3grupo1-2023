@@ -188,6 +188,18 @@ Por ejemplo, si un alumno informa que ha realizado el 50% de sus actividades sal
 
 Además, el modelo de ChatGPT puede responder preguntas y proporcionar información adicional sobre cómo desarrollar hábitos saludables, cómo superar obstáculos y cómo mantener la motivación a lo largo del tiempo. Esto puede complementar las enseñanzas del libro "Hábitos Atómicos" al ofrecer una guía personalizada y práctica para la implementación de esos principios.
 
+<p align="center">
+	<img src="https://www.rocalibros.com/archivos/imagenes/mayores/5635.jpg" width=400/>
+</p>
+
+"Alimenta el Sueño para un cerebro sano" de Raquel Marín es un libro que explora la importancia de una buena alimentación para la salud cerebral. En sus páginas, Marín destaca que una nutrición adecuada no solo afecta al cuerpo, sino también al funcionamiento y rendimiento del cerebro. La autora subraya que una dieta equilibrada, rica en nutrientes esenciales como vitaminas, minerales y ácidos grasos omega-3, puede promover un sueño reparador y mejorar la capacidad cognitiva.
+
+Además, el libro de Marín resalta la relación entre la alimentación y el sueño. La autora señala que una dieta desequilibrada y poco saludable puede provocar trastornos del sueño, como el insomnio. Por el contrario, una alimentación adecuada puede ayudar a regular los ciclos de sueño-vigilia y promover un descanso más profundo y reparador. Marín ofrece consejos prácticos sobre qué alimentos incluir en la dieta para mejorar la calidad del sueño y mantener un cerebro sano.
+
+En otro aspecto, el libro también destaca la importancia de una buena hidratación para el cerebro. Marín explica que el agua es fundamental para el correcto funcionamiento del cerebro y que la deshidratación puede tener un impacto negativo en la concentración, la memoria y el estado de ánimo. La autora ofrece pautas sobre la cantidad de agua que se debe consumir diariamente y sugiere diferentes formas de mantenerse hidratado, como beber agua regularmente y consumir alimentos ricos en agua, como frutas y verduras.
+
+En resumen, "Alimenta el Sueño para un cerebro sano" de Raquel Marín enfatiza la importancia de una alimentación equilibrada y una buena hidratación para la salud cerebral. El libro explora cómo una dieta adecuada puede mejorar la calidad del sueño, promover un funcionamiento cognitivo óptimo y prevenir trastornos del sueño. Marín proporciona consejos prácticos sobre qué alimentos incluir en la dieta y cómo mantenerse hidratado para cuidar el cerebro y optimizar el descanso.
+
 REFERENCIAS
 
 ChatGPT en atención al cliente: En el siguiente enlace, encontrarás un estudio de caso sobre cómo el API de ChatGPT ha sido utilizado para mejorar la atención al cliente en diferentes empresas: [ChatGPT Customer Support](https://example.com/chatgpt-customer-support)
