@@ -134,6 +134,32 @@ Se escribio los requisitos específicos de **Change your mind** en el siguiente 
 | ------ | ------ | ------------- | -------- | -------------- |
 | Ver estadísticas de progreso personal incremental | UC-006 | El usuario ha iniciado sesión y ha registrado progresos | 1. Recopilar datos sobre el progreso del usuario <br> 2. Calcular estadísticas relevantes <br> 3. Mostrar gráficos o tablas con las estadísticas <br> 4. Actualizar las estadísticas de forma automática o mediante una acción del usuario | Las estadísticas de progreso personal se muestran al usuario de manera incremental |
 
+### Sistema de recomendación 
+#### 1. Estructura del modelo teórico
+Las actividades de higiene básico están en constantes cambios. Esto afecta la trazabilidad y el registro de las actividades realizadas para diferentes empresas y dificulta la recomendación de actividades futuras.
+Por ejemplo, considere actividades diseñadas para eliminar o reducir exposición de los trabajadores mineros al estrés térmico caliente. En 2019, una actividad se describió como “Identificación de trabajadores que están aclimatados o evaluados
+apto para trabajar en condiciones de calor’’. En 2020 se eliminó esta actividad, y en 2021 se creó una nueva actividad.
+Pasaria lo mismo con las rutinas y parametros para dar una recomendación de rutina de acuerdo a su estado de animo.
+#### 2. Lista de actividades estandarizadas
+Homogeneizar el listado de todas las actividades que ofrece el seguro empresa a lo largo del tiempo conservando su esencia sin perder su propósito debido a los cambios antes mencionados, transformamos la descripción de cada actividad en un objeto matemático. Esto nos permite agrupar las actividades en función de su similitud y estandarizar la lista.
+
+Con base en las descripciones de las actividades de higiene ocupacional, realizar incrustaciones usando FastText [27–32] para preservar su sintaxis y contenido semántico. Luego usamos la frecuencia inversa suave (SIF) [33] asignar un peso a cada uno de estos vectores según su relevancia en la frase. Finalmente, obtenemos un vector de alta dimensión asociado con cada una de las descripciones de actividades, a partir de las cuales es posible determinar la similitud entre un par de actividades usando diferentes métrica.
+Se obtiene una lista estandarizada de actividades calculando la similitud del coseno entre diferentes pares de descripciones para todas las actividades.
+![](https://github.com/eluqm/IS-3grupo1-2023/blob/main/images/lista_estandarizada.png)
+#### 3. Sistema de recomendación
+La retroalimentación implícita se basa en el comportamiento observado de los usuarios y los elementos con los que interactúan. Usaremos este tipo de retroalimentación.
+Los sistemas de recomendación predicen elementos que un usuario puede tener interés, estas predicciones en filtros colaborativos (CF) se basan en encontrar usuarios o artículos similares y usar sus preferencias para hacer
+recomendaciones Hay dos enfoques principales para generar recomendaciones en CF: CF basado en memoria y CF basado en modelo .
+#### 4. Filtro colaborativo basado en elementos
+Se basa en el concepto de similitud elemento-elemento. Dado un usuario, el modelo recomendará artículos similares a los que el usuario ha mostrado interés en el pasado. La similitud elemento-elemento se puede representar matemáticamente utilizando varias medidas de similitud, como la similitud del coseno,Correlación de Pearson y similitud de Jaccard.
+Se puede utilizar un enfoque de filtrado colaborativo basado en elementos para recomendar actividades a las empresas en función de sus compras anteriores. Este enfoque compara la similitud entre las diferentes actividades que ofrece el corredor de seguros y hace recomendaciones basadas en las actividades que otras empresas similares han adquirido en el pasado.
+Este enfoque considera el comportamiento pasado de las empresas y sus preferencias para hacer recomendaciones personalizadas.
+El modelo que utilizamos es una variación del modelo colaborativo basado en elementos.
+Modelo de filtrado a través de Item-Variance Weighting (IVW).
+Esta ponderación ayuda a abordar el problema de los artículos con muchas calificaciones que son preferibles a aquellos con pocas calificaciones.
+Luego, la recomendación final se genera tomando la suma ponderada de las calificaciones de todos los elementos similares.
+![](https://github.com/eluqm/IS-3grupo1-2023/blob/main/images/filtro_colaborativo.png)
+
 ### Diagrama de Casos de Uso
 #### 1. Caso de uso: Inicio de sesión
 
