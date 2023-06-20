@@ -213,6 +213,9 @@ Investigaciones y artículos de OpenAI: El equipo de OpenAI ha publicado una ser
 
 How to Build a New Habit: This is Your Strategy Guide: Según investigadores de la Universidad de Duke, los hábitos representan alrededor del 40 por ciento de nuestros comportamientos en un día determinado. Entender cómo construir nuevos hábitos (y cómo funcionan los actuales) es esencial para progresar en tu salud, tu felicidad y tu vida en general.
 [Mas información](https://jamesclear.com/habit-guide)
+
+Alimenta el Sueño para un cerebro sano" de Raquel Marín: "Alimenta el Sueño para un cerebro sano" de Raquel Marín es una guía práctica que explora la relación entre la alimentación, el sueño y la salud cerebral, ofreciendo consejos para un descanso reparador y un mejor rendimiento cognitivo: Alimenta el sueño.[Alimenta el sueño](https://www.rocalibros.com/roca-editorial/catalogo/Raquel+Marin/Alimenta+el+sueno+para+un+cerebro+sano)
+
 ### Sistema Número 3
 
 Desarrollo de un sistema de generación de rutinas con respuestas predefinidas en una base de datos:
