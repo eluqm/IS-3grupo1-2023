@@ -198,7 +198,8 @@ Documentación del API de ChatGPT: La documentación oficial de OpenAI proporcio
 
 Investigaciones y artículos de OpenAI: El equipo de OpenAI ha publicado una serie de investigaciones y artículos relacionados con el desarrollo y los casos de uso del API de ChatGPT. Puedes explorarlos en la sección de Investigaciones de OpenAI: OpenAI Research.
 
-How to Build a New Habit: This is Your Strategy Guide: Según investigadores de la Universidad de Duke, los hábitos representan alrededor del 40 por ciento de nuestros comportamientos en un día determinado. Entender cómo construir nuevos hábitos (y cómo funcionan los actuales) es esencial para progresar en tu salud, tu felicidad y tu vida en general. ![Mas información](https://jamesclear.com/habit-guide)
+How to Build a New Habit: This is Your Strategy Guide: Según investigadores de la Universidad de Duke, los hábitos representan alrededor del 40 por ciento de nuestros comportamientos en un día determinado. Entender cómo construir nuevos hábitos (y cómo funcionan los actuales) es esencial para progresar en tu salud, tu felicidad y tu vida en general.
+[Mas información](https://jamesclear.com/habit-guide)
 
 ### Diagrama de Casos de Uso
 #### 1. Caso de uso: Inicio de sesión
