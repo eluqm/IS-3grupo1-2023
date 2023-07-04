@@ -13,6 +13,22 @@ class Outline extends StatefulWidget {
 }
 
 class _OutlineState extends State<Outline> {
+  final GlobalKey<ScaffoldState> _globalKey = GlobalKey<ScaffoldState>();
+
+  int currentScreen = 0;
+
+  //list of all screens
+  final allScreens = [
+    const Home(),
+    const Activity(),
+    const Progress(),
+    const Consult(),
+    const Profile(),
+    const Journal(),
+    const ViewJournal(),
+    const Music(),
+  ];
+  
   // si se seleccionan páginas de música o revistas, entonces
   // la navegación inferior muestra la página de inicio seleccionada
   int check(int screenIndex) => screenIndex > 4 ? 0 : screenIndex;
@@ -166,6 +182,18 @@ class _OutlineState extends State<Outline> {
           ),
         ),
       ),
+    );
+  }
+  ListTile _drawerTile(Icon icon, String text, int screenIndex) {
+    return ListTile(
+      leading: icon,
+      title: Text(text),
+      onTap: () {
+        Navigator.pop(context);
+        setState(() {
+          currentScreen = screenIndex;
+        });
+      },
     );
   }
 }
