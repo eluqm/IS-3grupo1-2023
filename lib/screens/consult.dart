@@ -100,7 +100,12 @@ class _ConsultState extends State<Consult> {
       child: Text(data),
     );
   }
-
+  Padding newFormat(String data, double bottomPadding) {
+    return Padding(
+      padding: EdgeInsets.fromLTRB(0, 0, 0, bottomPadding),
+      child: Text(data, opts),
+    );
+  }
   Padding reusingFormatWithDesign(String data, double bottomPadding,
       TextAlign textAlign, double fontSize, FontWeight fontWeight) {
     return Padding(
@@ -248,6 +253,7 @@ class _ConsultState extends State<Consult> {
         "patientUsn": user.usn,
         "patientEmail": user.email,
         "patientPhno": user.phno,
+        "patientAge": user.age
       }
     })
     );
@@ -261,21 +267,5 @@ class _ConsultState extends State<Consult> {
         .ref('userData/$currentUserId/basicInfo/$data')
         .get();
     return eachInfo.value.toString();
-  }
-
-  Future<UserModel> getUserInfo() async {
-    String usn = await getEachUserInfo('usn');
-    String name = await getEachUserInfo('name');
-    String email = await getEachUserInfo('email');
-    String phno = await getEachUserInfo('phno');
-    String profilePicUrl = await getEachUserInfo('profilePicUrl');
-    profilePicUrl ??= await FirebaseStorage.instance.ref('defaultImages/man5').getDownloadURL();
-    UserModel userModel = UserModel(
-        usn: usn,
-        name: name,
-        email: email,
-        phno: phno,
-        profilePicUrl: profilePicUrl);
-    return userModel;
   }
 }
