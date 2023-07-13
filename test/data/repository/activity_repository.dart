@@ -10,4 +10,24 @@ class ActivityRepository {
     final response = await ActivityProvider.getRandomActivity(queryParameters);
     return activityModelFromJson(response);
   }
+  ActivityModel activityModelFromJson(String string) {
+    var activity = ActivityModel.fromJson(json.decode(string));
+    activity.setupBackgroundType(activity);
+    return activity;
+  }
+
+  Map<String, String>? getQueryParameters(
+      String? activityType, String? participants) {
+    Map<String, String>? queryParameters = {};
+    if (activityType != null) {
+      queryParameters.addAll({"type": activityType});
+    }
+    if (participants != null) {
+      queryParameters.addAll({"participants": participants});
+    }
+    if (activityType == null && participants == null) {
+      return null;
+    }
+    return queryParameters;
+  }
 }
