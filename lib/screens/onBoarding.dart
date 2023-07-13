@@ -102,7 +102,12 @@ class _OnBoardingState extends State<OnBoarding> {
         ),
       ),
     );
+<<<<<<< HEAD
   }
+=======
+  } 
+
+>>>>>>> ce69f1cfce129048fa28fd62a909aae6e243140c
 
   Column onBoardingStyle(String animation, String title, String description) {
     return Column(
@@ -127,4 +132,8 @@ class _OnBoardingState extends State<OnBoarding> {
       ],
     );
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ce69f1cfce129048fa28fd62a909aae6e243140c

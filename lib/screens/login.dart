@@ -36,11 +36,19 @@ class _LoginState extends State<Login> {
                     //'https://assets9.lottiefiles.com/packages/lf20_hy4txm7l.json',
                     height: MediaQuery.of(context).size.height * 0.4),
                 const Text(
+<<<<<<< HEAD
                   "Welcome Back",
                   style: TextStyle(fontSize: 33, fontWeight: FontWeight.bold),
                 ),
                 const Text(
                   "Login to continue your journey",
+=======
+                  "¡Bienvenido de vuelta!",
+                  style: TextStyle(fontSize: 33, fontWeight: FontWeight.bold),
+                ),
+                const Text(
+                  "Inicia sesión para continuar tu viaje",
+>>>>>>> ce69f1cfce129048fa28fd62a909aae6e243140c
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.w300),
                 ),
                 Form(
@@ -53,13 +61,21 @@ class _LoginState extends State<Login> {
                         child: TextFormField(
                           decoration: const InputDecoration(
                             border: OutlineInputBorder(),
+<<<<<<< HEAD
                             labelText: 'EMAIL',
+=======
+                            labelText: 'CORREO ELECTRÓNICO',
+>>>>>>> ce69f1cfce129048fa28fd62a909aae6e243140c
                           ),
                           controller: _email,
                           keyboardType: TextInputType.emailAddress,
                           validator: (value) {
                             if (value == null || value.isEmpty) {
+<<<<<<< HEAD
                               return 'Did you forget me??';
+=======
+                              return '¿Me olvidaste?';
+>>>>>>> ce69f1cfce129048fa28fd62a909aae6e243140c
                             }
                             return null;
                           },
@@ -72,7 +88,11 @@ class _LoginState extends State<Login> {
                           obscureText: visible,
                           decoration: InputDecoration(
                             border: const OutlineInputBorder(),
+<<<<<<< HEAD
                             labelText: 'Password',
+=======
+                            labelText: 'Contraseña',
+>>>>>>> ce69f1cfce129048fa28fd62a909aae6e243140c
                               suffix: IconButton(onPressed: (){
                                 setState(() {
                                   if(visible){
@@ -87,7 +107,11 @@ class _LoginState extends State<Login> {
                           keyboardType: TextInputType.visiblePassword,
                           validator: (value) {
                             if (value == null || value.isEmpty) {
+<<<<<<< HEAD
                               return 'Did you forget me??';
+=======
+                              return '¿Me olvidaste?';
+>>>>>>> ce69f1cfce129048fa28fd62a909aae6e243140c
                             }
                             return null;
                           },
@@ -110,7 +134,11 @@ class _LoginState extends State<Login> {
                             }
                             FocusManager.instance.primaryFocus?.unfocus();
                           },
+<<<<<<< HEAD
                           child: const Text("LOG IN"),
+=======
+                          child: const Text("INICIAR SESIÓN"),
+>>>>>>> ce69f1cfce129048fa28fd62a909aae6e243140c
                         ),
                       )
                     ],
@@ -126,7 +154,11 @@ class _LoginState extends State<Login> {
 
   login(String emailAddress, String password) async {
     ScaffoldMessenger.of(context).showSnackBar(
+<<<<<<< HEAD
       const SnackBar(content: Text('Gimme a min')),
+=======
+      const SnackBar(content: Text('Espera un momento')),
+>>>>>>> ce69f1cfce129048fa28fd62a909aae6e243140c
     );
     //print(emailAddress + password);
     try {
@@ -135,9 +167,15 @@ class _LoginState extends State<Login> {
       Navigator.pushNamed(context, '/outline');
     } on FirebaseAuthException catch (e) {
       if (e.code == 'user-not-found') {
+<<<<<<< HEAD
         print('No user found for that email.');
       } else if (e.code == 'wrong-password') {
         print('Wrong password provided for that user.');
+=======
+        print('No existe un usuario con ese correo');
+      } else if (e.code == 'wrong-password') {
+        print('Contraseña incorrecta');
+>>>>>>> ce69f1cfce129048fa28fd62a909aae6e243140c
       }
     }
   }
