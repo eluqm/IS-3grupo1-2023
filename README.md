@@ -317,6 +317,15 @@ La programación funcional es un enfoque en el cual el programa se construye uti
 
 ## 2. Plugins.
 
+BLoC Architecture Pattern
+Flutter packages:
+flutter_bloc
+http
+url_launcher
+google_fonts
+sliding_up_panel
+auto_size_text
+
 ### *Restricciones* 
 
 ## 3. Dataspaces.
