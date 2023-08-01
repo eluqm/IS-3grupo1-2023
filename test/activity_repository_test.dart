@@ -34,5 +34,12 @@ void main() {
       // Comprobamos que los parámetros de consulta sean correctos.
       expect(queryParameters, equals({"type": "music", "participants": "1"}));
     });
+    // Test 2: getQueryParameters with null values returns null.
+    test('getQueryParameters with null values returns null', () {
+      // Llamamos al método getQueryParameters con valores nulos.
+      final queryParameters = activityRepository.getQueryParameters(null, null);
+      // Comprobamos que el resultado sea nulo.
+      expect(queryParameters, isNull);
+    });
   }
 }
