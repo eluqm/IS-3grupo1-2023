@@ -27,3 +27,35 @@ void main() {
       // El campo backgroundType se establece por defecto en 0, por lo que verificamos que sea igual a 0.
       expect(activityModel.backgroundType, equals(0));
     });
+    test(
+        'setupBackgroundType sets backgroundType correctly based on activity type',
+        () {
+      // Creamos una instancia de ActivityModel con un tipo de actividad "education".
+      final activityModel = ActivityModel(
+          activity: "Some activity",
+          type: "education",
+          participants: 1,
+          link: "");
+
+      // Llamamos al método setupBackgroundType para establecer el campo backgroundType.
+      activityModel.setupBackgroundType(activityModel);
+
+      // Verificamos que el campo backgroundType se establezca correctamente según el tipo de actividad "education".
+      expect(activityModel.backgroundType, equals(0));
+
+      // Cambiamos el tipo de actividad a "music".
+      activityModel.type = "music";
+      activityModel.setupBackgroundType(activityModel);
+
+      // Verificamos que el campo backgroundType se establezca correctamente según el nuevo tipo de actividad "music".
+      expect(activityModel.backgroundType, equals(1));
+
+      // Cambiamos el tipo de actividad a un valor desconocido "travel".
+      activityModel.type = "travel";
+      activityModel.setupBackgroundType(activityModel);
+
+      // Verificamos que el campo backgroundType se establezca correctamente para un valor de tipo de actividad desconocido.
+      expect(activityModel.backgroundType, equals(2));
+    });
+  });
+}
